@@ -38,6 +38,7 @@ class Cubelib(AutotoolsPackage):
         renames = {
             "cce": "cray",
             "rocmcc": "amdclang",
+            "llvm-amdgpu": "amdclang",
             "intel-oneapi-compilers": "oneapi",
             "llvm": "clang",
         }
